@@ -143,4 +143,5 @@ a {
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid rgba(196, 196, 196, 0.16);
+    cursor: pointer;
 }
