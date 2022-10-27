@@ -21,6 +21,7 @@ a {
     text-decoration: none;
     font-size: 14px;
     color: #A0A3A7;
+    width: 175px;
 }
 
 .btn {
@@ -37,23 +38,18 @@ a {
     background: linear-gradient(180deg, rgba(43, 34, 21, 0.8) -1.22%, #22282E 101.33%);
     box-shadow: 0px 0px 250px rgba(0, 0, 0, 0.3);
     border-radius: 32px;
-    width: 1410px;
+    max-width: 1410px;
     margin: 0 auto;
-    padding-bottom: 300px;
+    padding-bottom: 173px;
 }
 
 .header {
-    padding: 48px 32px 0px;
+    padding: 31px 32px 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 227px;
-}
-
-.nav {
-    width: 180px;
-    margin: 0 auto;
+    margin-bottom: 215px;
 }
 
 .nav > ul {
@@ -68,6 +64,7 @@ a {
     font-weight: 600;
     border: none;
     font-size: 14px;
+    width: 175px;
 }
 
 
@@ -80,7 +77,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
 }
 
 
@@ -90,15 +86,13 @@ a {
     text-align: center;
     font-weight: 400;
     margin-bottom: 32px;
-    line-height: 108px;
+    line-height: 105px;
 }
 
 .description {
     font-size: 18px;
     color: #F2F4F7;
     font-weight: 300;
-    padding: 0 50px;
-    margin-bottom: 80px;
     line-height: 27px;
 }
 
@@ -120,6 +114,7 @@ a {
     color: rgba(252, 64, 244, 1);
     border: 2px solid #FC40F4;
     background-color: transparent;
+    margin-top: 84px;
 }
 
 .slider-dots {
@@ -127,21 +122,28 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 77px;
 }
 
 .slider-dots li {
-    margin: 0 10px;
+    margin: 0 16px;
 }
 
 .slider-dots li.slider-active button {
-    border: 2px solid #fff;
+    border: none;
+    background-image: url("./img/Group 1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .slider-dots button {
     width: 16px;
     height: 16px;
-    border-radius: 50%;
+    border: none;
+    background-image: url("./img/Ellipse.svg");
     background-color: transparent;
-    border: 2px solid rgba(196, 196, 196, 0.16);
+    background-size: cover;
+    background-repeat: no-repeat;
     cursor: pointer;
 }
